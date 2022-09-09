@@ -1,0 +1,35 @@
+footer ul li{
+    margin:0 1.0rem;
+}
+section{
+    margin:0 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+}
+.nav-right ul{
+    display: none;
+}
+
+.nav-left{
+    border-right:none;
+}
+.nav-center{
+    border-right:none;
+    border-left:none;
+}
+.nav-center a img{
+    width: 50%;
+}
+
+.menu{
+    display: flex;
+}
+.first-phone{
+    display: flex;
+}
+.first-desktop-table{
+    display: none;
+}

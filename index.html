@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estyle/style.css">
+    <link rel="stylesheet" href="./estyle/table.css" media="screen and (max-width: 1500px)">
+    <link rel="stylesheet" href="./estyle/phone.css" media="screen and (max-width: 600px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="https://platzi.com/home"><img src="./images/favicon_bota_fora.svg" alt="amazon" target="_blank" class="first-phone"></a> 
+                   <a href="https://platzi.com/home"><img src="./images/logo.svg" alt="amazon" target="_blank" class="first-desktop-table"></a> 
+            </div>
+            <div class="nav-center">
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><img src="./images/email.svg" alt="email"></a>
+            </div>
+            <div class="nav-right">
+                <img src="./images/icon_menu.svg" alt="menu" class="menu">
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=A_g3lMcWVy0" target="_blank">producto</a></li>
+                        <li> <a href="https://github.com/" target="_blank"> amigos</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=75yuiH-bbc4" target="_blank">compra</a></li>
+                    </ul>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+        <div class="main-principal">
+            <h1>BUENOS HABITOS PARA APRENDER A PROGRAMAR</h1>
+        </div>
+
+    <section>
+        <p class="title">1. No repetirse</p>
+        <p>Probablemente más de una vez has llegado al punto en el que miras un fragmento de código y piensas; 
+        bueno… este código tiene el mismo aspecto que algún otro código que he escrito antes.</p>
+            <p>
+            Esto te debería sonar mucho y para mal dado que es una situación que queremos evitar. El código repetido empobrece tu trabajo porque se 
+            hace más difícil de mantener el ya que las modificaciones que hagas tienen que ser
+            hacerse en varios sitios. Así es más probable que se cuelen errores en el código.</p>
+            <p></p>
+        <p class="title">2. Cuando termines, refactoriza</p>
+            <p>La mayoría de los programadores, especialmente los que no tienen mucha experiencia, piensan que ya todo el trabajo está hecho una vez que el código 
+            funciona según lo previsto. Pero la palabra «hecho» incluye más que sólo escribir un fragmento de código de una funcionalidad llamativa.</p>
+            <p>Sí, tienes razón. Pero antes de pasar a la siguiente tarea deberías refactorizar tu código. 
+                Refactorizar tu código mejorará la legibilidad. Lo más probable es que no hayas producido el código más limpio que hayas escrito en tu vida.
+                Algunas cosas pueden haberte quedado claras y legibles para el resto,
+                 pero ¿cómo se sentirán otros programadores con tu código si le echan un ojo? Sé crítico contigo mismo en este sentido.</p>
+        <p class="title"> 3. Pon el foco en el cliente</p>
+        <p>
+            La mayoría de los programadores tienden a estar tan concentrados en aprender las tecnologías que pierden de vista el proyecto. 
+            En el proceso de convertirse en un experto en tecnología, 
+            es importante tener en cuenta el problema del cliente o de la empresa para la cual se está desarrollando. ¿Por qué estás montando esto?
+        </p>
+        <p>
+            ¿Estás 
+            trabajando para crear valor para la empresa o estás invirtiendo demasiado tiempo en algo que realmente no importa? Hay que hacerse esa pregunta cada día.
+        </p>
+        <p class="title">4. Haz commits pequeños</p>
+        <p>
+            Los pequeños commits permiten al desarrollador dar un mensaje descriptivo de consolidación. 
+            Lo siento, pero «solucionados algunos problemas» no es un mensaje de confirmación descriptivo.
+        </p>
+        <p>
+            Tu código también es más fácil de depurar una vez que empiezas a hacer pequeñas confirmaciones. Es fácil volver a una confirmación anterior para comprobar 
+            si se introdujo un error en esa confirmación. Una vez 
+            que has encontrado la confirmación en la que se introdujo el fallo, no hay mucho código que pueda haber causado este fallo, ya que los commits son pequeños.
+        </p>
+        <p>
+            Las consolidaciones grandes pueden tener muchas consecuencias negativas. 
+            Como muchas cosas han cambiado en la confirmación, no está claro qué es lo que ha pasado realmente.
+        </p>
+        <p>
+            Las revisiones de código se hacen mucho más fáciles con pequeñas confirmaciones. 
+            Permiten revisar un cambio a la vez, dando al revisor la oportunidad de entender lo que realmente se ha cambiado.
+        </p>
+        <p class="title">5. El poder de la coherencia</p>
+        <p>
+            El problema de ser incoherente viene del hecho inevitable de que el tiempo destruye el software. 
+            Cuanto más tiempo dura una aplicación, y más personas trabajan en ella, más caos se crea.
+        </p>
+        <p>
+            na de las primeras cosas que deberías hacer es elegir una guía de estilo. Una vez que tengas tu guía de estilo, cúmplela. 
+            Podrías usar un lint que revise tu código por incoherencias de estilo.
+
+            La segunda cosa usar una nomenclatura uniforme. Las variables, métodos y clases deben ser nombradas de la misma manera.
+             Ten en cuenta que la coherencia tiene un gran impacto en el mantenimiento de tu código.
+        </p>
+        <figure>
+         <img src="./aidan-hancock-344149-768x577.jpg" alt="" >
+        </figure>
+        <p class="title">6. Retócalo una sola vez</p>
+        <p>o arreglo más tarde. Sí, todos hemos oído eso antes. Y todos sabemos cuántas veces las cosas se arreglaron más tarde. 
+            Es cierto. Nunca. Cada vez que ves un comentario  en el código sabes que nadie lo ha tocado ni una vez.</p>
+            <p>
+                Significa que tu código ha sido refactorizado, solo para empezar. Tal como lo comentamos antes. 
+                Además de eso, tu código necesita ser probado. Y las pruebas son para la mayoría de los desarrolladores probablemente la parte menos amena de su trabajo. 
+                Pero hay más en las pruebas que simplemente hacer clic en la hipótesis del «camino feliz». 
+                Asegúrate de probar también otros escenarios. Y si quieres ir más allá, podrías escribir algunas pruebas automatizadas.
+            </p>
+            <p class="title">7. Nunca dejes de aprender</p>
+            <p>
+                Surgen nuevas tecnologías a diario. Y a veces puede parecer difícil estar al día con las últimas tendencias. 
+                Aunque nunca debes dejar de aprender. Porque el día que dejas de aprender es el día que dejas de crecer.
+                
+            </p>
+            <p>
+                Aprender cosas nuevas es la única manera de mantenerse relevante en esta era tecnológica siempre cambiante en la que vivimos.
+            </p>
+
+            <p class="enlaces">
+                Artículos relacionados: 
+                <a href="https://velneo.es/10-consejos-para-mejorar-destrezas-de-programacion-y-ser-mejor-desarrollador/">10 consejos para mejorar destrezas de programación y ser mejor desarrollador, 
+                    ¿Cómo aprender a programar software de gestión?, 6 consejos para programar software para empresast</a>
+            </p>
+    </section>
+<footer>
+    <ul>
+        <li>
+            <a href="https://velneo.es/7-buenos-habitos-mejores-programadores-software/">Creditos</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=hC8CH0Z3L54&list=RDhC8CH0Z3L54&start_radio=1">acerca de mi</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=BtLSaxRnIhc">contacto</a>
+        </li>
+        <li>
+            <a href="https://platzi.com/p/Sergio-Noriega-Cantillo/">privacidad</a>
+        </li>
+        <li>
+            <a href="https://platzi.com/precios/">foros</a>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>
